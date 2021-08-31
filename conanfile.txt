@@ -1,0 +1,12 @@
+[requires]
+lua/5.3.5
+sol2/3.2.3
+
+[generators]
+cmake
+
+[options]
+lua:shared=True
+
+[imports]
+bin, *.dll -> ./bin
